@@ -10,22 +10,31 @@ public class Metodos {
         int i = 0;
         System.out.println("Sigite o nome de usuário: ");
         Scanner s = new Scanner(System.in);
-        String nome = s.next();
-        if(nome != Registro.usuario){
+        String nome = s.nextLine();
+        if(nome.equals(Registro.usuario)){
+            return;
+        }else{
             while(i < 3){
-                System.out.println("Senha incorreta! Tente Novamente: ");
-                nome = s.next();
-                if(nome == Registro.usuario){
-                    break;
+                System.out.println("Usuário incorreto! Tente Novamente: ");
+                nome = s.nextLine();
+                if(nome.equals(Registro.usuario)){
+                    i = 5;
                 }else{
                     i++;
                 }
+            }
+            if(i != 5){
+                System.exit(0);
             }
         }
     }
 
     public static void PegaHora() {
-        SimpleDateFormat hora = new SimpleDateFormat("hh");
+        System.out.println("Digite a hora de entrada:");
+        Scanner s = new Scanner(System.in);
+        int hora = s.nextInt();
+        if(6 > hora && hora > 0){
 
+        }
     }
 }
