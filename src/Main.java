@@ -5,5 +5,9 @@ public class Main {
         Metodos.validaUsuario();
         
         Metodos.PegaHora();
+
+        Metodos.validaSenha();
+
+        Metodos.saudacao();
     }
 }
