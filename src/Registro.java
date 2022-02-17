@@ -1,5 +1,5 @@
 public class Registro {
     public static String usuario = "Batata";
-    int[] senhas = {1, 2, 3, 4};
+    String[] senhas = {"Zero Hour", "Daybreak Town", "Lazy Afternoon Streets", "Night of Fate"};
     public String senhaDoMomento;
 }
