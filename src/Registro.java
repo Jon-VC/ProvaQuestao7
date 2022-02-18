@@ -1,5 +1,3 @@
-import java.util.ArrayList;
-
 public class Registro {
     public static String usuario = "Batata";
     public static String[] senhas = {"Zero Hour", "Daybreak Town", "Lazy Afternoon Streets", "Night of Fate"};

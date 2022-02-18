@@ -1,4 +1,3 @@
-import java.text.SimpleDateFormat;
 import java.util.Scanner;
 
 public class Metodos {
@@ -32,6 +31,7 @@ public class Metodos {
         }
     }
 
+    //Metodo que pergunta, recebe e estabelece a hora
     public static void PegaHora() {
         System.out.println("Digite a hora de entrada:");
         Scanner s = new Scanner(System.in);
@@ -51,6 +51,7 @@ public class Metodos {
         }
     }
 
+    //Metodo que valida a senha correspondente ao periodo
     public static void validaSenha() {
         int i = 3;
         System.out.println("Sigite a senha do turno: ");
